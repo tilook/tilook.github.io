@@ -1,0 +1,145 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LapinBavard.com - Accueil </title>
+<link rel = "icon" href = https://zupimages.net/up/22/33/3dch.png
+type = "image/x-icon">
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+<style>
+body {
+height: 98vh;
+background: linear-gradient(to bottom, #4388EF, #FFFFFF);
+}
+.specialfont1 {
+	font-family: 'Nunito Sans', cursive;
+	color:white;
+}
+.specialfont2 {
+	font-family: 'Handlee', cursive;
+	color:white;
+}
+.position_haute {
+position: fixed;
+top : 25
+}
+.position {
+position: fixed;
+top: 0;
+left: 0;
+}
+.titre_principal {
+position : center;
+text-align : center;
+font-size : 45;
+}
+.button_hided {
+appearance: button;
+-moz-appearance: button;
+-webkit-appearance: button;
+text-decoration: none;
+display: none;
+padding: 2px 5px;
+margin: auto;
+display: none;
+width: 100px;
+height: 20px;
+line-height: 20px;
+background-color: #941c2f;
+color: white;
+font-size: 12px;
+font-weight: 500;
+text-align: center;
+border: 0;
+border-radius: 20px;
+padding: 5px 20px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+position: static;
+}
+.centrer{
+position : center;
+text-align : center;
+}
+.button:hover {
+background: #C1CFDA;
+color: black;
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 40%;
+margin: auto;
+height: 70px;
+
+}
+
+.discuss_button {
+padding: 15px 100px;
+margin: 10px 4px;
+color: #FFFFFF;
+font-family: sans-serif;
+text-transform: uppercase;
+text-align: center;
+position: relative;
+text-decoration: none;
+display: inline-block;
+border: 1px solid;
+}
+.discuss_button::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+display: block;
+width: 100%;
+height: 100%;
+z-index: 1;
+-webkit-transform: scaleY(0.1);
+transform: scaleY(0.1);
+transition: all 0.4s;
+}
+.discuss_button:hover {
+color: #FFFFFF;
+}
+.discuss_button:hover::before {
+opacity: 30;
+background-color: #1086d475;
+-webkit-transform: scaleY(1);
+transform: scaleY(1);
+transition: -webkit-transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02), opacity 0.4s;
+transition: transform 0.6s cubic-bezier(0.08, 0.35, 0.13, 1.02), opacity;
+}
+.wrapper {
+margin: 80px auto;
+text-align: center;
+width: 100%;
+position: relative;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<a href="file:///E:/Extra-scolaire/html/page_CGU.html" style="text-decoration: none; color : white" class = "specialfont1" target="_blank"><strong>Nos CGU</strong></a>
+<a href="file:///E:/Extra-scolaire/html/page_tutoriel.html" style="text-decoration: none; color : white" class = "specialfont1"  target="_blank"><strong>Tutoriel</strong></a>
+<a href="file:///E:/Extra-scolaire/html/page_inscription.html" style="text-decoration: none; color : white" class = "specialfont1"  target="_blank"><strong>S'inscrire</strong></a>
+<a href="file:///E:/Extra-scolaire/html/page_connexion.html" style="text-decoration: none; color : white" class = "specialfont1"  target="_blank"><strong>Se connecter</strong></a>
+</div>
+<br><br>
+<h1 class = "titre_principal specialfont2"> LapinBavard.com</h1>
+<br><br>
+<h3 class = "centrer specialfont2"> LapinBavard est un nouveau site révolutionnaire pour discuter en ligne sans avoir à télécharger d'application.</h3>
+<h3 class = "centrer specialfont2"> Discutez et faites vous des amis, organisez des sorties, retrouvez d'anciennes connaissances... </h3>
+
+<div class="wrapper" "centrer">
+      <span class="discuss_button" onclick = 'window.location.href="file:///E:/Extra-scolaire/html/page_discussions.html"' >Commencer a discuter</span>
+<script src="scripts/main.js"></script>
+
+
+
+
