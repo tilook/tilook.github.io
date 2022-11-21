@@ -56,7 +56,8 @@ def listener(client, address):
             clients.remove(client)
             client.close()
             
-host = socket.gethostname()
+#host = socket.gethostname()
+host = "185.199.108.153"
 port = 8236
 
 s = socket.socket()
